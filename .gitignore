@@ -1,3 +1,23 @@
+# Python environment
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables & secrets
+.env
+
+# Local logs and databases
+logs/
+*.log
+*.db
+*.sqlite3
+
+# Local raw/processed data directories (if you want to keep repo clean)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
